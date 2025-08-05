@@ -19,7 +19,7 @@ public class Projeto001 {
             System.out.println("\nQual o valor a ser calculado? ");
             Double valor = scanner.nextDouble();
             if (opcao == 1){
-                Double calculo = (valor * (9/5)) + 32;
+                Double calculo = (valor * (9.0/5)) + 32;
                 System.out.printf("Resultado: %.2f%n", calculo);
             }else{
                 Double calculo = (valor - 32) / 1.8;
