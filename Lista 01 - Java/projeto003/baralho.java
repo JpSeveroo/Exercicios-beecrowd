@@ -6,7 +6,6 @@ import java.util.List;
 import java.util.Collections;
 
 public class baralho {
-    private List<Carta> Cartas;
 
     public class baralho() { 
         this.cartas = new ArrayList();
